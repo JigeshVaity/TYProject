@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Anaghafish" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/light</item>
+        <item name="colorPrimary">@color/skyblue1</item>
+        <item name="colorPrimaryVariant">@color/skyblue1</item>
+
+    </style>
+
+    <style name="Theme.Anaghafish" parent="Base.Theme.Anaghafish" />
+</resources>

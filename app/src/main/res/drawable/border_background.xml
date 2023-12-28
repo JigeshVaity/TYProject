@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background Color -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#EBF0F0" /> <!-- Set the background color here -->
+            <corners android:radius="9dp" /> <!-- Set the corner radius for rounded corners -->
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    android:elevation="3dp"
+    android:background="@drawable/white_recommended_btn"
+    app:cardBackgroundColor="#ECEBE6">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/white_recommended_btn"
+        android:padding="5dp"
+        android:elevation="3dp"
+        >
+
+        <FrameLayout
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:padding="2dp"
+            android:background="@color/white"
+            >
+
+            <ImageView
+                android:id="@+id/pic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/raw"
+                android:background="@color/white"
+                />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fish Name"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginStart="8dp"
+                android:background="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/fee"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0.00rs"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:background="@color/white"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"/>
+            <Button
+                android:id="@+id/addBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/blue_btn_background"
+                android:text="View"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

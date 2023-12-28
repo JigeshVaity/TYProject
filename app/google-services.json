@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "563317661378",
+    "project_id": "finalproject-74073",
+    "storage_bucket": "finalproject-74073.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563317661378:android:4cef6423aacae24598e55b",
+        "android_client_info": {
+          "package_name": "com.example.anaghafishapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0359841KADLdsVhpK2It8QPPMyfNr50U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

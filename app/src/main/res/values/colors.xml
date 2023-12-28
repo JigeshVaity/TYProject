@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="skyblue">#04C4FC</color>
+    <color name="skyblue1">#369BF4</color>
+    <color name="skyblue2">#06FFF4</color>
+    <color name="light">#ECEBE6</color>
+    <color name="grey">#808080</color>
+
+        <color name="bottom_nav_item_selected_color">#06FFF4</color>
+        <color name="bottom_nav_item_unselected_color">#808080</color>
+
+
+</resources>
